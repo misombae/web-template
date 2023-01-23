@@ -8,19 +8,19 @@ $(function () {
             event.preventDefault();
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var subject = $("input#subject").val();
+            var phone = $("input#phone").val();
             var message = $("textarea#message").val();
 
             $this = $("#sendMessageButton");
             $this.prop("disabled", true);
-
             $.ajax({
-                url: "contact.php",
+                //url: "contact.php",
+                url: "https://script.google.com/macros/s/AKfycbw2JTNnvuZbgeRq5YYyLoevrIkiv2RCGHKPWRB8Val5m2UvYohxT-QM6B8k09O_JoNwTA/exec",
                 type: "POST",
                 data: {
                     name: name,
                     email: email,
-                    subject: subject,
+                    phone: phone,
                     message: message
                 },
                 cache: false,
