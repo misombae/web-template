@@ -9646,8 +9646,40 @@ h4, h5, h6 {
   background: #009CFF;
 }
 
+.testimonial-carousel .owl-item.center .testimonial-text {
+  box-shadow: 0 0 30px #CCCCCC;
+}
+
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+
+.testimonial-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.testimonial-carousel .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  background: #DDDDDD;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+  width: 40px;
+  /* background: #7AB730; */
+  background: #005185;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+  /* box-shadow: 0 0 30px #CCCCCC; */
+  box-shadow: 0 0 30px #3490f4;
 }
