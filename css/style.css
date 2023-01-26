@@ -9609,7 +9609,23 @@ h4, h5, h6 {
 }
 
 .bg-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/beable/container-3118783.jpg), no-repeat center center;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/beable/container-3118783.jpg), no-repeat center center;
+  background-size: cover; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../img/beable/jpg/Free_Logo_Mockup_4.jpg) center no-repeat fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/beable/container-3118783.jpg) center no-repeat fixed;
+}
+
+
+.bg-gallery1 {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/beable/container-3118783.jpg), no-repeat center center;
+  background-size: cover; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../img/beable/jpg/Free_Logo_Mockup_4.jpg) center no-repeat fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/beable/container-489933_1920.jpg) center no-repeat fixed;
+}
+
+
+.bg-contact-gallery {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/beable/Free_Logo_Mockup_4_잘라낸이미지.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9682,4 +9698,64 @@ h4, h5, h6 {
 .testimonial-carousel .owl-item.center .testimonial-text {
   /* box-shadow: 0 0 30px #CCCCCC; */
   box-shadow: 0 0 30px #3490f4;
+}
+
+
+/* Sections background: Quote */
+.section-quote {
+  background: url(../img/beable/container-3118783.jpg) center no-repeat fixed;
+}
+
+.section-quote p {
+  margin-top: 0;
+  font-size: 70px;
+  color: #;
+}
+
+.section-quote p span {
+  color: #196fc2;
+}
+
+
+
+/* Section: Clients */
+.section-clients {
+  padding: 80px 0;
+}
+
+.client {
+  height: 85px;
+  line-height: 85px;
+  text-align: center;
+  margin: 0 15px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.client:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.client img {
+  display: inline-block;
+  height: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Section: Clients */
+  .section-clients {
+    padding: 40px 0;
+  }
+}
+
+/* Sections background: Me */
+.section-me {
+  background: url(../img/beable/container-3118783.jpg) center no-repeat fixed;
+}
+
+.section-me h2 {
+  margin: 0;
+  color: #ffffff;
+  position: relative;
 }
