@@ -28,7 +28,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #FFFFFF;
-  --dark: #103093;
+  --dark: #22395d;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #103093;
+  color: #22395d;
 }
 
 h1, .h1 {
@@ -1912,7 +1912,7 @@ pre code {
   background-color: #fff;
   border-color: #80ceff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .form-control::placeholder {
@@ -2350,7 +2350,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -2627,8 +2627,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #103093;
-  border-color: #103093;
+  background-color: #22395d;
+  border-color: #22395d;
 }
 
 .btn-dark:hover {
@@ -2646,8 +2646,8 @@ fieldset:disabled a.btn {
 
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #103093;
-  border-color: #103093;
+  background-color: #22395d;
+  border-color: #22395d;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
@@ -2674,7 +2674,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.5);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -2691,7 +2691,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.5);
 }
 
 .btn-outline-secondary {
@@ -2887,14 +2887,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #103093;
-  border-color: #103093;
+  color: #22395d;
+  border-color: #22395d;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #103093;
-  border-color: #103093;
+  background-color: #22395d;
+  border-color: #22395d;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -2902,15 +2902,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #103093;
+  color: #22395d;
   background-color: transparent;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #103093;
-  border-color: #103093;
+  background-color: #22395d;
+  border-color: #22395d;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
@@ -3511,7 +3511,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -3576,11 +3576,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(52, 144, 244, 0.5);
+  background-color: rgba(0, 156, 255, 0.5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(52, 144, 244, 0.5);
+  background-color: rgba(0, 156, 255, 0.5);
 }
 
 .custom-radio .custom-control-label::before {
@@ -3592,7 +3592,7 @@ input[type="button"].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(52, 144, 244, 0.5);
+  background-color: rgba(0, 156, 255, 0.5);
 }
 
 .custom-switch {
@@ -3628,7 +3628,7 @@ input[type="button"].btn-block {
 }
 
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(52, 144, 244, 0.5);
+  background-color: rgba(0, 156, 255, 0.5);
 }
 
 .custom-select {
@@ -3650,7 +3650,7 @@ input[type="button"].btn-block {
 .custom-select:focus {
   border-color: #80ceff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-select:focus::-ms-value {
@@ -3713,7 +3713,7 @@ input[type="button"].btn-block {
 
 .custom-file-input:focus ~ .custom-file-label {
   border-color: #80ceff;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-file-input[disabled] ~ .custom-file-label,
@@ -3773,15 +3773,15 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -4601,7 +4601,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.25);
 }
 
 .page-item:first-child .page-link {
@@ -4683,7 +4683,7 @@ a.badge-primary:hover, a.badge-primary:focus {
 
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 244, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 255, 0.5);
 }
 
 .badge-secondary {
@@ -4778,7 +4778,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #103093;
+  background-color: #22395d;
 }
 
 a.badge-dark:hover, a.badge-dark:focus {
@@ -5821,7 +5821,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #103093;
+  color: #22395d;
   background-color: #f7f7f7;
   border-bottom: 2px solid #ebebeb;
 }
@@ -5927,7 +5927,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   opacity: 0.5;
-  transition: opacity 0.000000000001s ease;
+  transition: opacity 0.15s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6167,7 +6167,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #103093 !important;
+  background-color: #22395d !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6253,7 +6253,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #103093 !important;
+  border-color: #22395d !important;
 }
 
 .border-white {
@@ -9323,7 +9323,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #103093 !important;
+  color: #22395d !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -9627,7 +9627,7 @@ h4, h5, h6 {
 
 
 .bg-contact-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/beable/hamburg-3021820_1920\ _조절된크기.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/beable/Free_Logo_Mockup_4_잘라낸이미지.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9768,83 +9768,3 @@ h4, h5, h6 {
 하늘색 : #3490f4
 파란색 : #103093
 */
-
-
-/* .wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
-} */
-
-.typing-demo {
-  width: 22ch;
-  animation: typing 5s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  /* font-size: 2em; */
-}
-/* 
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-} */
-
-
-@keyframes typing{
-  0% {
-    width: 0%;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-  }
-
-/* 
-.title-typing h1 {
-  font-size: 20px;
-  min-width:11px;
-  white-space: nowrap;
-  margin: 0;
-  position: fixed;
-  color: transparent;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-}
-
-.title-typing h1::before {
-  content: "Typing Effect with CSS";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: black;
-  overflow: hidden;
-  border-right: 1px solid black;
-  animation: typing 5s steps(31) infinite;
-}
-
-@keyframes typing{
-  0% {
-    width: 0%;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-  }
-} */

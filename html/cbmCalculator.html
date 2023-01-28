@@ -1,0 +1,83 @@
+
+
+    <div class="headerdiv">
+        CBM Calculator
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Unit of Measurement
+        </div>
+        <div class="divright">
+            <select id="duom" class="selectdim" oninput="cbmcalculator.calculateCBM();">
+                <option value="cm" selected>cm</option>
+                <option value="mm">mm</option>
+                <option value="meter">meter</option>
+                <option value="inch">inch</option>
+                <option value="feet">feet</option>
+                <option value="yard">yard</option>
+            </select>
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Length
+        </div>
+        <div class="divright">
+            <input type="text" class="divinputnormal" id="txtl" oninput="cbmcalculator.calculateCBM();">
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Width
+        </div>
+        <div class="divright">
+            <input type="text" class="divinputnormal" id="txtw" oninput="cbmcalculator.calculateCBM();">
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Height
+        </div>
+        <div class="divright">
+            <input type="text" class="divinputnormal" id="txth" oninput="cbmcalculator.calculateCBM();">
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Gross Weight
+        </div>
+        <div class="divright">
+            <div class="divrightsmaller">
+                <div class="divrightinnerleft">
+                    <input type="text" class="divinputsmall" id="txtcartongw" oninput="cbmcalculator.calculateCBM();">
+                </div>
+                <div class="divrightinnerright">                    
+                    <select class="selectwt" id="wuom" oninput="cbmcalculator.calculateCBM();">
+                        <option value="kg" selected>kg</option>
+                        <option value="lb">lb</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="divleft">
+            Quantity
+        </div>
+        <div class="divright">
+            <input type="text" class="divinputnormal" id="txtcartonqty" value="1" oninput="cbmcalculator.calculateCBM();">
+        </div>
+    </div>
+    <div class="mainvolumediv">
+        <div class="divvolume">
+            <div class="divvolumeleft">
+               CBM(R.TON)
+            </div>
+        </div>
+        <div class="divvolume">
+            <div class="divvolumeleft">
+                <input type="text" id="txtmetervolume" readonly="true" tabindex="-1">
+            </div>
+        </div>
+    </div>
+
