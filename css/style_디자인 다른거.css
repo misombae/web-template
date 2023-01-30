@@ -29,15 +29,13 @@
   --danger: #dc3545;
   --light: #FFFFFF;
   --dark: #103093;
-  /*103093;
-  103093*/
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif:  "Montserrat", sans-serif;
-  /* --font-family-sans-serif:  "GmarketSansMedium", sans-serif; */
+  /* --font-family-sans-serif:  "Montserrat", sans-serif; */
+  --font-family-sans-serif:  "GmarketSansMedium", sans-serif;
   /* --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -61,8 +59,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  /* font-family: "GmarketSansMedium", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "GmarketSansMedium", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5895,12 +5893,9 @@ a.close.disabled {
 }
 
 .carousel-fade .carousel-item {
-  /* opacity: 0;
+  opacity: 0;
   transition-property: opacity;
-  transform: none; */
-  opacity: 0.4;
-  transition-property: opacity;
-  transform: none; 
+  transform: none;
 }
 
 .carousel-fade .carousel-item.active,
@@ -5937,7 +5932,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   opacity: 0.5;
-  transition: opacity 0.1ms ease;
+  transition: opacity 0.000000000001s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -9901,9 +9896,3 @@ h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
 }
-
-
-/* .position-absolute:hover {
-  transform: scale(1.5);
-  transition: .5s;
-} */

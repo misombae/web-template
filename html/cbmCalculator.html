@@ -1,83 +1,80 @@
 
-
-    <div class="headerdiv">
-        CBM Calculator
-    </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Unit of Measurement
-        </div>
-        <div class="divright">
-            <select id="duom" class="selectdim" oninput="cbmcalculator.calculateCBM();">
-                <option value="cm" selected>cm</option>
-                <option value="mm">mm</option>
-                <option value="meter">meter</option>
-                <option value="inch">inch</option>
-                <option value="feet">feet</option>
-                <option value="yard">yard</option>
-            </select>
-        </div>
-    </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Length
-        </div>
-        <div class="divright">
-            <input type="text" class="divinputnormal" id="txtl" oninput="cbmcalculator.calculateCBM();">
-        </div>
-    </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Width
-        </div>
-        <div class="divright">
-            <input type="text" class="divinputnormal" id="txtw" oninput="cbmcalculator.calculateCBM();">
-        </div>
-    </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Height
-        </div>
-        <div class="divright">
-            <input type="text" class="divinputnormal" id="txth" oninput="cbmcalculator.calculateCBM();">
-        </div>
-    </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Gross Weight
-        </div>
-        <div class="divright">
-            <div class="divrightsmaller">
-                <div class="divrightinnerleft">
-                    <input type="text" class="divinputsmall" id="txtcartongw" oninput="cbmcalculator.calculateCBM();">
-                </div>
-                <div class="divrightinnerright">                    
-                    <select class="selectwt" id="wuom" oninput="cbmcalculator.calculateCBM();">
-                        <option value="kg" selected>kg</option>
-                        <option value="lb">lb</option>
-                    </select>
-                </div>
+    <!-- CBM Start-->
+    <div class="container-fluid py-3" id="cbmcalculator" style="padding: 120px 0; margin: 90px 0;">
+        <div class="container py-5">
+            <div class=" position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">CBM Calculator</h6>
+                CBM은 화물의 가로, 세로, 높이를 Meter로 환산하여 곱한 결과치이며 부피를 환산하는 단위 입니다.<br>
+                가로, 세로, 높이 각 1m를 1CBM이라고 하며 부피가 작더라도 최소 1CBM으로 비용이 산정됩니다.<br><br><br>
+            </div>
+            <div class="row align-items-center">
+                <form>
+                    <div class="form-row">
+                        
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                가로(Length)
+                            </div>
+                            <input type="number"  class="cbm-text" id="cmLength" name="cmLength" oninput="cbmcalculator.calculateCBM();"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                세로(Width)
+                            </div>
+                            <input type="number"  class="cbm-text" id="cmWidth" name="cmWidth"  oninput="cbmcalculator.calculateCBM();" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                높이(Height)
+                            </div>
+                            <input type="number" class="cbm-text" id="cmHeigth" name="cmHeigth"  oninput="cbmcalculator.calculateCBM();"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                단위(Unit of Measurement)
+                            </div>
+                            <select id="duom" class="cbm-text" oninput="cbmcalculator.calculateCBM();">
+                                <option value="cm" selected>cm</option>
+                                <option value="mm">mm</option>
+                                <option value="meter">meter</option>
+                                <option value="inch">inch</option>
+                                <option value="feet">feet</option>
+                                <option value="yard">yard</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                중량(Gross Weight)
+                            </div>
+                                <input type="number" class="cbm-group-text" id="cmGrossWeigth" name="cmGrossWeigth" oninput="cbmcalculator.calculateCBM();"/>
+                                <select style="width: 40%;" class="cbm-group-text" id="cmGross" name="cmGross">
+                                    <option value="kg" selected>kg</option>
+                                    <option value="lb">lb</option>
+                                </select>
+                            
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                수량(Quantity)
+                            </div>
+                            <input type="number" class="cbm-text" id="cmQuan" name="cmQuan" oninput="cbmcalculator.calculateCBM();"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-sm-3 control-group">
+                            <div class="cbm-title">
+                                Result
+                            </div>
+                            <input type="number" class="cbm-text" id="result" readonly/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <div class="maindiv">
-        <div class="divleft">
-            Quantity
-        </div>
-        <div class="divright">
-            <input type="text" class="divinputnormal" id="txtcartonqty" value="1" oninput="cbmcalculator.calculateCBM();">
-        </div>
-    </div>
-    <div class="mainvolumediv">
-        <div class="divvolume">
-            <div class="divvolumeleft">
-               CBM(R.TON)
-            </div>
-        </div>
-        <div class="divvolume">
-            <div class="divvolumeleft">
-                <input type="text" id="txtmetervolume" readonly="true" tabindex="-1">
-            </div>
-        </div>
-    </div>
-
+    <!-- CBM End-->
